@@ -14,5 +14,4 @@ npm run start
 npm run start
 ```
 
-Tworzy nowy build produkcyjny
 
