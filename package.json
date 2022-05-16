@@ -1,0 +1,40 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Basic Template",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "author": "Team IT",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.14",
+    "fslightbox": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "vinyl-ftp": "^0.6.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@glidejs/glide": "^3.4.1",
+    "@popperjs/core": "^2.9.2",
+    "autoprefixer": "^9.8.6",
+    "bootstrap": "^5.0.0-beta3",
+    "browserify": "^16.5.2",
+    "del": "^5.1.0",
+    "gulp-connect-php": "^1.0.3"
+  }
+}

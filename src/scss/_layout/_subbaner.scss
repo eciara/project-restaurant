@@ -1,0 +1,84 @@
+.subbaner {
+    background-image: url('../images/subslider_5-small.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 30vw;
+
+    @include media-breakpoint-up(xxl) {
+        //height: 25vw;
+        background-position: center;
+    }
+
+     @include media-breakpoint-up(md) {
+        background-image: url('../images/subslider_5-medium.jpg');
+    }
+
+    @media (min-width: 800.98px) {
+        background-image: url('../images/subslider_5.jpg');
+    }
+
+    &--menu {
+        background-image: url('../images/subslider_1-small.jpg');
+
+        @media (min-width: 480.98px) {
+            background-image: url('../images/subslider_1-medium.jpg');
+        }
+
+        @media (min-width: 800.98px) {
+            background-image: url('../images/subslider_1.jpg');
+        }
+    }
+
+    &--catering {
+        background-image: url('../images/subslider_2-small.jpg');
+        background-position: right;
+
+        @media (min-width: 480.98px) {
+            background-image: url('../images/subslider_2-medium.jpg');
+        }
+
+        @media (min-width: 800.98px) {
+            background-image: url('../images/subslider_2.jpg');
+        }
+    }
+
+    &--gallery {
+        background-image: url('../images/subslider_3-small.jpg');
+
+        @media (min-width: 480.98px) {
+            background-image: url('../images/subslider_3-medium.jpg');
+        }
+
+        @media (min-width: 800.98px) {
+            background-image: url('../images/subslider_3.jpg');
+        }
+    }
+
+    &--contact {
+        background-image: url('../images/subslider_4-small.jpg');
+        background-position: right;
+
+        @media (min-width: 480.98px) {
+            background-image: url('../images/subslider_4-medium.jpg');
+        }
+
+        @media (min-width: 800.98px) {
+            background-image: url('../images/subslider_4.jpg');
+        }
+    }
+
+    &__title {
+        font-size: $fs-subaner;
+        text-align: center;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        color: $white;
+        line-height: 1;
+        text-align: center;
+    }
+}

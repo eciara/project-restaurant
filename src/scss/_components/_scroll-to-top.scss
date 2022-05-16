@@ -1,0 +1,17 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    cursor: pointer;
+    background-color: $bg-color-accent;
+    color: $white;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    z-index: 9999;
+    transition: all 0.35s linear;
+
+    &:hover {
+        background-color: $bg-color-primary;
+    }
+}

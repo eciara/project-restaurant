@@ -1,0 +1,105 @@
+// colors
+$color-light: #dbdbdb;
+$color-primary: #232a2c;
+$color-accent: #ffd114;
+
+// backround-color
+$bg-color-light: #dbdbdb;
+$bg-color-primary: #232a2c;
+$bg-color-accent: #ffd114;
+
+// Font-sizes
+$fs-small: 1.15rem;
+$fs-base: clamp(1rem, #{"0.8576rem + 0.5538vw"}, 1.2rem);
+$fs-nav-link: 1.2rem;
+$fs-subaner: clamp(2rem, #{"1.4286rem + 4.7619vw"}, 4rem);;
+$fs-btn-cta: clamp(2rem, #{"1.6786rem + 1.2500vw"}, 2.5rem);
+$fs-btn: clamp(1.5rem, #{"1.3810rem + 0.5208vw"}, 1.5rem);
+$fs-heading: clamp(1.5rem, #{"1.3288rem + 0.6656vw"}, 1.8rem);
+$fs-header-services: clamp(1.5rem, #{"1.4250rem + 0.3333vw"}, 1.6rem);
+$fs-heading-contact: clamp(1.5rem, #{"0.7727rem + 3.1818vw"}, 3.25rem);
+$fs-heading-footer: clamp(1.15rem, #{"1.0548rem + 0.4167vw"}, 1.35rem);
+$fs-heading-contact-form: clamp(2rem, #{"0.9881rem + 1.1458vw"}, 2.25rem);
+$fs-icon: clamp(1.2rem, #{"0.8135rem + 1.7179vw"}, 2.875rem);
+$fs-icon-social: clamp(2rem, #{"2.4215rem + -1.6392vw"}, 1.438rem);
+$fs-icon-contact: clamp(1rem, #{"0.4304rem + 2.2152vw"}, 2rem);
+$fs-phone: clamp(1.5rem, #{"1.0728rem + 1.6614vw"}, 2.25rem);
+$fs-phone-contact-form: clamp(1.5rem, #{"1.3269rem + 0.6731vw"}, 2rem);
+$fs-cta: clamp(1.1rem, #{"0.8635rem + 1.0513vw"}, 2.125rem);
+
+// Containers
+$container-max-widths: (
+  sm: 90%,
+  md: 90%,
+  lg: 90%,
+  xl: 90%,
+  xxl: 90%
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 801px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+// Fonts
+$font-family-base: 'Montserrat', sans-serif;;
+
+// Base
+$body-bg: $color-light;
+$body-color: $color-primary;
+$font-weight-base: 300;
+
+$h1-font-size: $fs-heading;
+$h2-font-size: $fs-heading;
+$h3-font-size: $fs-heading;
+$h4-font-size: $fs-heading;
+$h5-font-size: $fs-heading;
+$headings-color: $color-primary;
+$headings-font-weight: 900;
+$headings-line-height: 1.25;
+$link-hover-color: $color-accent;
+
+// Navigation
+$navbar-padding-y: 0;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $color-accent;   
+$navbar-dark-active-color: $color-accent;
+$nav-link-font-size: $fs-nav-link;
+$nav-link--active-color: #fff;
+$nav-link-padding-x: 1rem;
+$nav-link-font-weight: 700;
+
+//form
+$input-border-width: 0;
+$input-padding-y: .6rem;
+$form-label-color: $white;
+$form-label-font-size: $fs-base;
+$form-label-font-weight: 600;
+$input-focus-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+$input-btn-focus-width: 0;
+$input-btn-focus-box-shadow: none;
+$input-btn-padding-y: .35rem;
+$input-btn-padding-x: .75rem;
+$alert-padding-y: 0;
+
+// Buttons 
+$btn-padding-y: .75rem;
+$btn-padding-x: 1.75rem;
+$btn-font-weight: 700;
+$btn-font-size: $fs-btn;
+$btn-link-color: $color-primary;
+$btn-border-radius: 8px;
+$btn-transition: all 0.35s linear;
+
+/* z-index list 
+navbar__list:  77;
+menu-mobile: 170;
+navbar-toggler: 171;
+dropdown: 8;
+dropdown-icon: 9;
+scroll-to-top 9999: 
+our-place-images: 2
+*/

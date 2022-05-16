@@ -1,0 +1,8 @@
+.header {
+    background-color: $bg-color-primary;
+    padding: 1rem 0;
+
+    @include media-breakpoint-up(lg) {
+        padding: 2rem 0;
+    }
+}

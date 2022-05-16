@@ -1,0 +1,73 @@
+.btn {
+    font-size: $fs-base;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+
+    &--primary {
+        background-color: $bg-color-accent;
+
+        &:hover {
+            background-color: $white;
+        }
+    }
+
+    &--secondary {
+        background-color: $white;
+
+        &:hover {
+            background-color: $bg-color-accent;
+        }
+    }
+
+    &--baner {
+        margin-top: 1rem;
+        border-radius: 25px;
+        padding: .25rem 1rem;
+
+        @media (min-width: 370px) {
+            padding: .5rem 1.25rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 1.5rem;
+        }
+    }
+
+    &--cta {
+        z-index: 55;
+        margin-right: 1.5rem;
+        line-height: 1.75;
+    }
+
+    &--offer,
+    &--news {
+        padding: .75rem 1.25rem;
+    }
+
+    &--our-place {
+        position: absolute;
+        right: 10%;
+        bottom: 0;
+        transform: translateY(50%);
+    }
+
+    &--form {
+        text-transform: lowercase;
+        padding: 0.4rem 1.35rem;
+    }
+
+    &--footer {
+        background-color: transparent;
+        color: $white;
+        border: 2px solid currentColor;
+
+        &:hover {
+            background-color: $bg-color-accent;
+            border: 2px solid $color-accent;
+        }
+    }
+
+}

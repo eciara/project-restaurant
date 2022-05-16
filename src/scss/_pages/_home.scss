@@ -1,0 +1,34 @@
+.offer {
+    position: relative;
+
+    &__heading {
+        margin-top: .75rem;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 1.5rem;
+        }
+    }
+
+    & a {
+        display: inline-block;
+    }
+
+    &__single {
+        img {
+            margin: 0 auto;
+
+            @include media-breakpoint-down(md) {
+                max-width: 85%;
+            }
+        }
+
+        .button {
+            margin-top: .25rem;
+
+            @include media-breakpoint-up(md) {
+                margin-top: .5rem;
+            }
+        }
+    }
+}

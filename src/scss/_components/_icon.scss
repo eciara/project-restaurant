@@ -1,0 +1,35 @@
+.icon {
+    font-size: $fs-icon;
+    vertical-align: middle;
+    transition: all .35s ease-in-out;
+
+    &--header {
+        color: $white;
+        margin-left: 2rem;
+        font-size: $fs-icon-social;
+        
+        @include media-breakpoint-between(lg, xl) {
+            margin-left: .5rem;
+        }
+
+        &:hover {
+            color: $color-accent;
+        }
+    }
+
+    &--footer {
+        color: $color-accent;
+        padding-bottom: .5rem;
+        font-size: 2.7rem;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &--contact {
+        font-size: $fs-icon-contact;
+        color: $white;
+        padding-right: .5rem;
+    }
+}

@@ -1,0 +1,17 @@
+.menu {
+
+    &__single {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: .75rem;
+
+        &:hover {
+            // color: $color-accent;
+        }
+    }
+}

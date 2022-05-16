@@ -1,0 +1,43 @@
+.baner {
+    background-color: $white;
+    padding: .125rem 0;
+
+    &__body {
+        background-image: url('../images/baner-small.jpg');
+        background-position: center;
+        background-size: cover;
+        background-color: $white;
+        display: flex;
+        align-items: center;
+        position: relative;
+        min-height: 55vw;
+       
+        @media (min-width: 480.98px) {
+            background-image: url('../images/baner-medium.jpg');
+        }
+
+
+        @include media-breakpoint-up(md) {
+            background-image: url('../images/baner.jpg');
+        }
+    }
+
+    .col-xl-3 {
+        @include media-breakpoint-up(xl) {
+            width: 27%;
+        }
+    }
+
+    &__icon {
+        width: clamp(4rem, #{"-1.0000rem + 17.5000vw"}, 14rem);
+        margin: 0 auto;
+    }
+
+    &__heading {
+        padding-bottom: 2.5rem;
+    }
+
+    &__aside {
+        width: fit-content;
+    }
+}
