@@ -1,4 +1,4 @@
-# template-restaurant
+# template restaurant
 
 Po rozpakowaniu instalujemy zależności poleceniem
 
