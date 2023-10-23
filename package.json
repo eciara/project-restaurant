@@ -9,7 +9,7 @@
     "build": "gulp build",
     "deploy": "gulp deploy"
   },
-  "author": "Team IT",
+  "author": "Ewelina C.",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.6",
